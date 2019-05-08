@@ -19,7 +19,7 @@ def CreateDatabase(server_url):
 
 
 def SetupServer(dynamodb_url):
-    from notes_fase import database as notes_database
+    import database as notes_database
     notes_database.NotesDatabaseInterface.Set(
         notes_database.DynamoDBNotesDatabase(endpoint_url=dynamodb_url, region_name=fase_run_util.DYNAMODB_REGION,
                                              aws_access_key_id='KeyId', aws_secret_access_key='AccessKey'))
