@@ -1,7 +1,7 @@
 import os
 
 from fase_lib.server_util import deploy_util
-from fase_lib.server_util import version_util
+from fase_lib.tools import version_util
 
 
 FASE_LIB_DIR_VAR_NAME = 'FASE_LIB_DIR'
