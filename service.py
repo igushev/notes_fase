@@ -3,7 +3,7 @@ import hashlib
 
 from fase_lib import fase
 from fase_lib.base_util import datetime_util
-from fase_lib.server_util import version_util
+from fase_lib.tools import version_util
 from fase_lib import fase_sign_in
 
 import database as notes_database
