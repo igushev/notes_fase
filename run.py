@@ -1,7 +1,7 @@
 import os
 import time
 
-from fase_lib import fase_run_util
+from fase_lib.tools import fase_run_util
 
 FASE_SERVER_URL = 'http://notes-fase-env-test1.us-west-2.elasticbeanstalk.com'
 FASE_SESSION_INFO_FILENAME = 'notes_fase/session_info'
