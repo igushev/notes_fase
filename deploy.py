@@ -26,7 +26,7 @@ def main(argv):
 
   filename = FILENAME_TEMPLATE % (version.replace('.', '_'), fase_version.replace('.', '_'))
   copy_list = [(fase_lib_dir, os.path.basename(fase_lib_dir))]
-  deploy_util.DeploySeparate(home_dir, copy_list, deploy_dir, filename)
+  deploy_util.Deploy(home_dir, copy_list, deploy_dir, filename)
 
 
 if __name__ == '__main__':
